@@ -1,0 +1,40 @@
+/* ================================ POPULAR COURSES ================================ */
+
+.popularCourses {
+    margin-top: 6rem;
+  }
+  
+  .popularCourses h2 {
+    line-height: 2;
+    margin-top: 2rem 0 1rem;
+  }
+  
+  .popCourse__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+    margin-bottom: 2rem;
+  }
+  
+  .popCourse {
+    background-color: var(--color-bg1);
+    border: 1px solid transparent;
+    text-align: center;
+    transition: var(--transition);
+  }
+  
+  .popCourse:hover {
+    background: transparent;
+    transform: translate(2%, 2%);
+    border-color: var(--color-primary);
+  }
+  
+  .popCourse__info {
+    padding: 2rem;
+  }
+  
+  .popCourse__info p {
+    margin: 1.2rem 0 2rem;
+    font-size: 0.9rem;
+  }
+  
